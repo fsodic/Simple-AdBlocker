@@ -1,11 +1,14 @@
 **Welcome to official Pages Simple AdBlocker by FSodic**
 
-Just write variable on javascript file.
-Example:
+1. define variable in javascript ads, (**name must containing ads, ad or etc**)
+Example
+
 `var ads_check = '12233';`
 
-Next: in your javascript code on page (**must inline javascript**)
-do action:
+Next: in your javascript code on page (**must inline javascript**).
+
+Example
+
 `if(typeof ads_check !== 'undefined') {
    // adblocker is not active 
   } else {
