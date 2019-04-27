@@ -1,0 +1,21 @@
+/*
+----------------------
+https://www.fsodic.com
+----------------------
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #efefef;
+  color: #000;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif, sans;
+}
+a {
+  color: #07d;
+  text-decoration: none;
+}
