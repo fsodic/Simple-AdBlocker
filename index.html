@@ -100,7 +100,7 @@
 
 <script>$(document).ready(function(){
   var d = new Date();
-  var n = d.toTimeString();
+  var n = d.getTime();
   $('#ikn').attr('src', 'assets/js/ads.js?v='+n);
 
   if(typeof ads_check !== 'undefined') {
