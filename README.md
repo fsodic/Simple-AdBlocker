@@ -5,7 +5,7 @@ Example
 
 `var ads_check = '12233';`
 
-Next: in your javascript code on page (**must inline javascript**).
+2. In your javascript code on page (**must inline javascript**)
 
 Example
 
