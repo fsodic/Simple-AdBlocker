@@ -1,1 +1,1 @@
-var fs_code = 1;
+var ads_check = '98887998';
