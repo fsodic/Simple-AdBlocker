@@ -4,7 +4,7 @@
 
 Example:
 
-```
+```js
 var ads_check = '12233';
 ```
 
@@ -12,7 +12,7 @@ var ads_check = '12233';
 
 Example:
 
-```
+```js
 if(typeof ads_check !== 'undefined') { 
 // adblocker is not active
 } else {
