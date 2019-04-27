@@ -9,11 +9,15 @@ Example
 
 Example
 
-`if(typeof ads_check !== 'undefined') {
-   // adblocker is not active 
-  } else {
-    // your message if adblocker active
-  }`
+``if(typeof ads_check !== 'undefined') {
+  
+  // adblocker is not active
+  
+} else {
+  
+  // your message if adblocker active
+  
+}``
   
   Example pages:
   https://fsodic.github.io/Simple-Adblocker/index.html
