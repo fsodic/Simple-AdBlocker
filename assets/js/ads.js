@@ -1,1 +1,1 @@
-var adCode_blocker = parsetInt('1');
+var adCode_blocker = 1;
