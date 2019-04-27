@@ -1,1 +1,1 @@
-##Welcome to official Pages Simple AdBlocker by FSodic
+**Welcome to official Pages Simple AdBlocker by FSodic**
