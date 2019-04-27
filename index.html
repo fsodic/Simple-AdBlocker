@@ -4,20 +4,108 @@
 
 <head>
 
-<title>Example for blocking ads</title>
+<title>Simple Adblocker by FSodic</title>
 
+<meta name="theme-color" content="#dd0d0d" />
+
+<meta name="description" content="Simple Adblocker by FSodic" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<meta charset="UTF-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=10" />
+
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700" />
+
+<link rel="stylesheet" href="assets/css/theme.css" type="text/css" />
+  
 </head>
 
 <body>
 
-<p>Welcome to My site.<br />
-This is just test page for adblocker</p>
+  <header>
+  
+    <div class="header-brand"></div>
+    
+    <nav id="navbar" class="navbar-menu">
+    
+      <ul class="main-menu">
+      
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="https://www.fsodic.com">FSodic.com</a></li>
+        
+      </ul>
+      
+      <ul class="social-menu">
+      
+        <li><a href="https://www.facebook.com/fsodic"><i class="fa fa-facebook"></i><span class="hdd">Facebook</span></a></li>
+        
+        <li><a href="https://www.twitter.com/f_sodic"><i class="fa fa-twitter"></i><span class="hdd">Twitter</span></a></li>
+        
+        <li><a href="https://www.instagram.com/f_sodic"><i class="fa fa-instagram"></i><span class="hdd">Instagram</span></a></li>
+        
+        <li><a href="https://www.fsodic.com/pen/"><i class="fa fa-pencil"></i><span class="hdd">Pen</span></a></li>
+        
+      </ul>
+      
+    </nav>
+    
+    <div class="header-site">
+    
+      <h1><a href="index.html">FSodic.Github.Io</a></h1>
+      
+      <h2>Simple Adblocker</h2>
+      
+    </div>
+    
+  </header>
 
+  <main id="main">
+  
+    <section id="content">
+    
+      <article id="article">
+      
+        <h3>Ad Block Off</h3>
+        
+        <div class="article-content">
+          
+          <p>Adblocker doesn't detected</p>
+        
+        </div>
+        
+      </article>
+      
+    </section>
+    
+  </main>
+ 
+  <footer id="footer">
+  
+    <div class="copy">
+    
+      <div class="container">&copy; <a href="https://www.fsodic.com">FSodic.com</a></div>
+      
+    </div>
+    
+  </footer>
+  
 <script src="assets/js/jquery-v3.1.1.min.js"></script>
 
 <script src="assets/js/bootstrap-v3.3.7.min.js"></script>
 
 <script src="assets/js/ads.js"></script>
+
+<script>$(document).ready(function(){
+  if(fs_code == 1) {
+    //Nothing todo
+  } else {
+    $('main h3').html('Ad Block On');
+    $('main .article-content').html('Adblocker detected');
+  }
+});</script>
 
 </body>
 
