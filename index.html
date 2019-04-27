@@ -99,12 +99,11 @@
 <script src="assets/js/ads.js"></script>
 
 <script>$(document).ready(function(){
-  if(fs_code == 1) {
-    //Nothing todo
-  } else {
-    $('main h3').html('Ad Block On');
-    $('main .article-content').html('Adblocker detected');
-  }
+  if(typeof ads_check !== 'undefined') {
+		
+	} else {
+		$('main section').html('<div class="ikn-notification">Your adblocker is active</div>');
+	}
 });</script>
 
 </body>
