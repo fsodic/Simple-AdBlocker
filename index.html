@@ -96,14 +96,18 @@
 
 <script src="assets/js/bootstrap-v3.3.7.min.js"></script>
 
-<script src="assets/js/ads.js"></script>
+<script src="assets/js/ads.js" id="ikn"></script>
 
 <script>$(document).ready(function(){
+  var d = new Date();
+  var n = d.toTimeString();
+  $('#ikn').attr('src', 'assets/js/ads.js?v='+n);
+
   if(typeof ads_check !== 'undefined') {
-		
-	} else {
-		$('main section').html('<div class="ikn-notification">Your adblocker is active</div>');
-	}
+    
+  } else {
+    $('main section').html('<div class="ikn-notification">Your adblocker is active</div>');
+  }
 });</script>
 
 </body>
