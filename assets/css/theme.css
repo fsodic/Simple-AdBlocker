@@ -19,3 +19,101 @@ a {
   color: #07d;
   text-decoration: none;
 }
+img {
+  max-width: 100%;
+}
+ul, ol {
+  list-style: none;
+}
+.container {
+  max-width: 1196px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.hdd {
+  display: none;
+}
+header .header-top {
+  background: #05d;
+  line-height: 50px;
+}
+header .header-site {
+  background: #05e;
+  padding: 4em 0;
+  text-align: center;
+}
+header a {
+  color: #fff;
+}
+header .header-top .container {
+  display: flex;
+}
+header .header-brand {
+  font-weight: 600;
+  margin-right: 15px;
+}
+header .header-brand a {
+  text-transform: uppercase;
+}
+nav {
+  display: flex;
+  flex: 1;
+}
+nav ul.main-menu {
+  display: flex;
+  flex: 1;
+}
+nav ul.social-menu {
+  display: flex;
+}
+nav ul li a {
+  display: block;
+  padding: 0 5px;
+}
+nav ul.main-menu li a:hover {
+  padding-top: 2px;
+  border-bottom: 2px solid #fff;
+  line-height: 46px;
+}
+nav ul.social-menu li a {
+  width: 30px;
+  line-height: 30px;
+  margin: 10px 2px;
+  text-align: center;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 50%;
+  color: #07f;
+}
+footer {
+  background: #222;
+  text-align: center;
+}
+footer .copy {
+  line-height: 40px;
+  color: #fff;
+}
+footer .copy a {
+  text-decoration: underline;
+  color: #fff;
+}
+main {
+  padding: 4em 0;
+}
+main section {
+  background: #fff;
+  padding: 10px 15px;
+  box-shadow: 2px 2px 2px #0003;
+  border: 1px solid #0003;
+}
+h2 {
+  font-size: 16px;
+  font-weight: normal;
+  color: #fff;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
