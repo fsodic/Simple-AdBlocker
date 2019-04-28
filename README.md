@@ -22,3 +22,6 @@ if(typeof ads_check !== 'undefined') {
   
   Example pages:
   https://fsodic.github.io/Simple-Adblocker/index.html
+
+  Another Pen:
+  https://www.fsodic.com/pen/b0
